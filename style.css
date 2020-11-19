@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header {
+  background-color: #121b2a;
+  padding: 10px 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  overflow: hidden;
+}
+.logo {
+  width: 15%;
+  float: left;
+}
+.logo img {
+  width: 100%;
+}
+.menu {
+  width: 70%;
+  float: right;
+}
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  list-style-type: none;
+  color: white;
+  float: left;
+  padding: 0 50px;
+  margin-top: 75px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.menu ul li a:hover {
+  color: #0078bd;
+}
+.menu ul li:last-child a {
+  padding-right: 0;
+}
+/* Header end */
+/* Banner Start */
+.Banner {
+  background-image: url(Banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.Banner1 {
+  width: 45%;
+  margin-top: 220px;
+}
+.Banner1 h1 {
+  color: #0078bd;
+  font-size: 50px;
+}
+.Banner1 h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 300;
+}
+.Banner1 p {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+.Banner1 button {
+  margin-top: 40px;
+  text-transform: uppercase;
+  padding: 10px 30px 10px 30px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid;
+  color: #5a5a5a;
+}
+.Banner1 button::after {
+  content: url(play-button.png);
+  /* width: 40%; */
+}
+.Banner1 button:hover {
+  background-color: #121a29;
+  color: white;
+}
+/* Banner end */
+/* work start */
+.work {
+  background-color: #121b2c;
+  height: 400px;
+}
+.work1 {
+  width: 33%;
+  float: left;
+  padding: 80px 0;
+}
+.work1 img {
+  text-align: center;
+  float: left;
+}
+.work1 h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.work h3 {
+  color: #0078bd;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+.work p {
+  color: white;
+  width: 60%;
+  line-height: 25px;
+}
+.work1 h2 p {
+  color: #0078bd;
+  font-size: 26px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+/* work end */
+/* Service start */
+.service {
+  background-color: #040811;
+  height: 330px;
+}
+.service1 {
+  width: 32%;
+  float: left;
+  padding: 40px 0;
+}
+
+.service1 h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.service1 h3 span {
+  color: #0078bd;
+  font-weight: bold;
+}
+.service1 p {
+  color: white;
+  margin-bottom: 25px;
+  width: 62%;
+}
+
+.service1 h3 span {
+  display: inline;
+}
+.service1 span {
+  color: white;
+  display: block;
+}
+.service1 table {
+  color: white;
+  margin-right: 10px;
+  line-height: 25px;
+}
+/* Service end */
+/* footer start */
+.footer {
+  background-color: #121b2c;
+  height: 80px;
+  padding: 30px 0;
+}
+.footer1 {
+  float: left;
+  width: 70%;
+}
+.footer1 ul {
+}
+.footer1 ul li {
+  float: left;
+  font-weight: 100;
+  text-transform: capitalize;
+  color: white;
+  padding-left: 20px;
+  display: block;
+  transition: 0.3s;
+}
+.footer1 ul li:hover {
+  color: #0079bc;
+}
+.footer1 p {
+  color: #0079bc;
+  padding-top: 40px;
+  margin-left: 20px;
+}
+.footer2 {
+  float: right;
+  width: 30%;
+}
+.footer2 img {
+  width: 100%;
+  /* margin-left: 40px; */
+}
+/* footer end */
